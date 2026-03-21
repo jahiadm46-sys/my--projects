@@ -1,16 +1,14 @@
-# এটি একটি ছোট ক্যালকুলেটর
-print("--- Simple Addition Calculator ---")
-
 num1 = input("Enter first number: ")
 num2 = input("Enter second number: ")
 
-# সংখ্যাগুলোকে যোগ করা
-sum = int(num1) + int(num2)
+# হিসাবগুলো আলাদা আলাদা লাইনে (খুবই গুরুত্বপূর্ণ)
+sum_res = int(num1) + int(num2)
+sub_res = int(num1) - int(num2)
+mul_res = int(num1) * int(num2)
+div_res = int(num1) / int(num2)
 
-print("The total is: " + str(sum))sub = int(num1) - int(num2)
-mul = int(num1) * int(num2)
-div = int(num1) / int(num2)
-print("The total is: " + str(sum))
-print("The subtraction is: " + str(sub))
-print("The multiplication is: " + str(mul))
-print("The division is: " + str(div))
+# এবার ফলাফলগুলো দেখাবে
+print("The total is: " + str(sum_res))
+print("The subtraction is: " + str(sub_res))
+print("The multiplication is: " + str(mul_res))
+print("The division is: " + str(div_res))
